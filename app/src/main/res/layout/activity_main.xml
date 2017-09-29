@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/black"
+    tools:context="com.example.stellar.escapeproject_stellar.MainActivity">
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="left|bottom"
+        android:background="@drawable/button_round"
+        android:id="@+id/back2HelloBtn" />
+
+
+
+    <ImageView
+        android:id="@+id/leftUpImg"
+        app:layout_widthPercent="33%"
+        app:layout_heightPercent="45%"
+        android:layout_gravity="left|top"
+        android:scaleType="centerInside"
+        android:clickable="true"
+        android:layout_margin="5dp"
+     />
+
+    <ImageView
+        android:id="@+id/middleUpImg"
+        app:layout_widthPercent="33%"
+        app:layout_heightPercent="45%"
+        android:layout_gravity="center_horizontal|top"
+        android:scaleType="centerInside"
+        android:clickable="true"
+        android:layout_margin="5dp"
+    />
+
+    <ImageView
+        android:id="@+id/rightUpImg"
+        app:layout_widthPercent="33%"
+        app:layout_heightPercent="45%"
+        android:layout_gravity="right|top"
+        android:scaleType="centerInside"
+        android:clickable="true"
+        android:layout_margin="5dp"
+    />
+
+    <ImageView
+        android:id="@+id/leftDownImg"
+        app:layout_widthPercent="33%"
+        app:layout_heightPercent="45%"
+        android:layout_gravity="left|bottom"
+        android:scaleType="centerInside"
+        android:clickable="true"
+        android:layout_margin="5dp"
+        app:layout_marginBottomPercent="10%"
+    />
+
+    <ImageView
+        android:id="@+id/middleDownImg"
+        app:layout_widthPercent="33%"
+        app:layout_heightPercent="45%"
+        android:layout_gravity="center_horizontal|bottom"
+        android:scaleType="centerInside"
+        android:clickable="true"
+        android:layout_margin="5dp"
+        app:layout_marginBottomPercent="10%"
+    />
+
+    <ImageView
+        android:id="@+id/rightDownImg"
+        app:layout_widthPercent="33%"
+        app:layout_heightPercent="45%"
+        android:layout_gravity="right|bottom"
+        android:scaleType="centerInside"
+        android:clickable="true"
+        android:layout_margin="5dp"
+        app:layout_marginBottomPercent="10%"
+    />
+
+
+
+
+</android.support.percent.PercentFrameLayout>
+
